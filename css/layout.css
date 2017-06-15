@@ -1,7 +1,67 @@
 /* Page layout */
 
 body{
-  margin:0 auto;
-  width:1280px;
-  background:gold;
+  	margin: 0 auto;
+	width: 1240px;
+	padding: 0 20px;
+	background: #D0E4F2;
 }
+
+ul.menu{
+	padding: 0;
+	list-style: none;
+	margin: 2px 0px;
+}
+	ul.menu li{
+		display: inline-block;
+	}
+		ul.menu li a{
+			display: inline-block;
+			padding: 10px 18px;
+		}
+		
+header{
+	height: 128px;
+	position: relative;
+	background: #85A5CC;
+}
+	header hgroup{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	h1{
+		margin: 26px 0 0 23px;
+	}
+	h2.slogan{
+		margin: 1px 0 0 25px;
+	}
+
+	#branding{
+		margin: 16px 0 0 20px;
+	    background: #fff;
+	}
+
+	form.search{
+		display: block;
+		position: absolute;
+		right: 20px;
+		top: 18px;
+	}
+
+	ul.social-media{
+	    display: inline-block;
+		position: absolute;
+		top: 52px;
+		right: 20px;
+		margin: 0;
+	}
+
+		ul.social-media li{
+			display: inline-block;
+		}
+
+		ul.social-media a i{
+			display: inline-block;
+		}
+

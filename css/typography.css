@@ -11,6 +11,38 @@ gray : #85A5CC
 light gray : #D0E4F2
 *******/
 
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('./../libs/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('./../libs/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+   url('./../libs/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),
+   url('./../libs/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),
+   url('./../libs/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),
+   url('./../libs/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-facebook-square:before {
+  content: "\f082";
+}
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
 body{
   font-family: 'Open Sans', sans-serif;
   color:#30395C;
@@ -19,3 +51,26 @@ body{
 h1,h2,h3,h4,h5,h6{
   font-family: 'Quicksand', sans-serif;
 }
+
+a{
+	color: #1A1F2B;
+}
+
+	a:hover{
+		color: #4A6491;
+	}
+
+ul.social-media li{
+	font-size: 2.3em;
+}
+	ul.social-media a{
+		text-decoration: none;
+	}
+	
+		ul.social-media a i{
+			text-indent: -99em;
+		}
+
+
+
+
