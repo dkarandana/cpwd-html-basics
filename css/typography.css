@@ -1,0 +1,21 @@
+/* Text Related styles 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Varela Round', sans-serif;
+
+color scheme : https://color.adobe.com/Blue-Sky-Moisty-CPWD-HTML-BASIC-Sample-color-theme-9673783/
+element color : #1A1F2B dark blue
+primary color : #30395C blue
+secondary color : #4A6491 light blue
+gray : #85A5CC
+light gray : #D0E4F2
+*******/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color:#30395C;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Quicksand', sans-serif;
+}
